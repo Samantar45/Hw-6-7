@@ -87,7 +87,7 @@ Large buttons for:
 ---
 
 ## 🙏 Credits and Acknowledgments
-- Developed by *[Your Name]*  
+- Developed by Mahamed 
 - Assisted through AI-driven development using ChatGPT  
 - Inspired by the classic Tetris game
 
