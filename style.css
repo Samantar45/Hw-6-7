@@ -1,0 +1,28 @@
+:root{
+  --bg: #0f1724;
+  --panel: #0b1220;
+  --accent: #00d1ff;
+  --muted: #9aa4b2;
+  --card: #0e1524;
+}
+
+*{box-sizing:border-box}
+html,body {height:100%; margin:0; font-family: Inter, Roboto, Arial, sans-serif; background: linear-gradient(180deg,#07101a 0%, #0b1726 100%); color:#e6eef6}
+.container{max-width:980px;margin:24px auto;padding:18px}
+header{display:flex;align-items:baseline;justify-content:space-between}
+h1{margin:0;font-size:28px;letter-spacing:2px}
+.subtitle{color:var(--muted); margin:0; font-size:12px}
+
+.game-area{display:flex;gap:18px; margin-top:18px}
+canvas#tetris{background:#061226;border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,.6); display:block}
+.sidebar{width:260px; display:flex;flex-direction:column; gap:12px}
+
+.panel{background:var(--panel); padding:12px;border-radius:8px; color:#cfe9ff}
+.panel h3{margin:0 0 8px 0; font-size:14px}
+.stats div{margin:6px 0; font-weight:600}
+.controls ul{margin:6px 0 0 18px;padding:0;color:var(--muted)}
+.controls li{margin-bottom:6px;font-size:13px}
+button{background:transparent;border:1px solid rgba(255,255,255,.08);padding:8px 10px;border-radius:6px;color:#e6eef6;cursor:pointer}
+button:hover{border-color:var(--accent); box-shadow:0 6px 14px rgba(0,209,255,.05)}
+
+footer{margin-top:18px;color:var(--muted); font-size:13px}

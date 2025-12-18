@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tetris — Built with ChatGPT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>TETRIS</h1>
+      <p class="subtitle">Built using ChatGPT as the primary vibe coding tool</p>
+    </header>
+
+    <section class="game-area">
+      <canvas id="tetris" width="200" height="400"></canvas>
+
+      <aside class="sidebar">
+        <div class="panel">
+          <h3>Next</h3>
+          <canvas id="preview" width="120" height="120"></canvas>
+        </div>
+
+        <div class="panel">
+          <h3>Hold</h3>
+          <canvas id="hold" width="120" height="120"></canvas>
+        </div>
+
+        <div class="panel stats">
+          <div>Score: <span id="score">0</span></div>
+          <div>Lines: <span id="lines">0</span></div>
+          <div>Level: <span id="level">0</span></div>
+          <div>High Score: <span id="highscore">0</span></div>
+        </div>
+
+        <div class="panel controls">
+          <h4>Controls</h4>
+          <ul>
+            <li>← / → — move</li>
+            <li>↑ — rotate</li>
+            <li>↓ — soft drop</li>
+            <li>Space — hard drop</li>
+            <li>C — hold</li>
+            <li>P — pause</li>
+            <li>R — restart</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <button id="pauseBtn">Pause</button>
+          <button id="restartBtn">Restart</button>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      <small>Open <code>index.html</code> in a browser or run a simple static server.</small>
+    </footer>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
