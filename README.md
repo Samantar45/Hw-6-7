@@ -49,7 +49,7 @@ http://localhost:8080
 ## 📥 Manual Installation (No Docker)
 
 1. Clone the repository:  
-git clone https://github.com/your-username/tetris-game.git
+git clone https://github.com/Samantar45/tetris-game.git
 
 2. Open the folder:  
 cd tetris-game
